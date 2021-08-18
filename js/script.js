@@ -11,11 +11,12 @@ let username=localStorage.getItem("username")
     userdom.innerHTML=username;              // يعني اليوزر دوم ضع بداخله القيمة المتغيرة لاسم المستخدم
 }
  
-    // logoutbtn.addEventListener("click",function(){
-    //     localStorage.clear();                           
-    //         setTimeout(() => {
-    //         window.location="registor.html";
-    //     }, 2000);
-    // });
+    logoutbtn.addEventListener("click",function(){
+        localStorage.clear();                           
+            setTimeout(() => {
+            window.location="registor.html";
+        }, 2000);
+    });
+
 
    
