@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-color: gray;
+    padding: 10px 0;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content .brand{
+font-size: 32px;
+text-decoration: none;
+color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li a {
+display: block; /*لكي اعطيه طول وعرض لان العنصر انلاين*/
+color: white;
+min-width: 50px;
+margin: 0 5px;
+padding: 5px;
+}
+
+/******************* form***********************/
+.section-form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); /*لجعله في وسط الصفحة */
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    background-color: #bc6ff1;
+}
+.section-form h2{
+font-size: 50px;
+letter-spacing: 2px;
+color: #52057b;
+}
+.section-form form{
+
+}
+.section-form form input{
+display: block;
+width: 100%;
+margin: 5px 0;
+height: 40px;
+border: solid 1px #ddd;
+padding: 5px; /*عشان البليس هولدير يدخل لجوا*/
+font-family: 'Oswald', sans-serif;
+outline: 0; /* لازالة الخط الاسود الذي يكون حول البوكس*/
+
+}
+.section-form form input[type=submit]{ /*لاستدعاء السبميت فقط*/
+font-size: 25px;
+height: auto;
+text-transform: uppercase;  /* لجعل الخط كابيتال*/
+cursor: pointer; /*لجعل الماوس على شكل يد عن التأشير على الرز*/
+}
+.section-form form input[type=submit]:hover{
+opacity: 0.8;
+
+}
+
+
+/*products*/
+
+.products{
+    width:60%;
+    margin: 10px 0;
+}
+.product-item{
+    display: flex;
+}
+.product-item-img{
+    width: 25%;
+}

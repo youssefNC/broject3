@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Shopping Cart | Registor Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registor.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="header-content">  <!--  لكي اقوم باعطاء الكلاس خاصية ديسبلاي فيلكس -->
+            <a href="index.html" class="brand">Shopping cart</a>
+        <nav> <ul>
+            <li> <a href="login.html"> Sign In</a> </li>
+            <li> <a href="registor.css"> Sign Up</a> </li>
+           </ul>
+        </nav>
+        </div>
+    </div>
+    </header>
+    <section class="section-form">
+        <h2>Registor User</h2>
+        <form novalidate> <!-- يعني لا تظهر اي رسائل تلقائية من عندك -->
+            <input type="text" placeholder="Enter Username..." id="useranme"/>
+            <input type="email" placeholder="Enter Email..." id="email"/>
+            <input type="password" placeholder="Enter Password..." id="password"/>
+            <input type="submit" value="sign Up" id="sign-up"/>
+        </form>
+       </section>
+       <script src="js/registor.js"></script>
+
+</body>
+</html>
